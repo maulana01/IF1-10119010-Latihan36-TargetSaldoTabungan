@@ -18,8 +18,8 @@ import java.util.Scanner;
  */
 public class TargetSaldoTabungan {
     
-    private static Double bunga, jmlBunga;
-    private static int targetSaldo, lama, saldoAwal;
+    private static Double jmlBunga;
+    private static int lama;
     
     private static double hitungBunga(double bunga, int saldo) {
         jmlBunga = (bunga / 100) * saldo;
